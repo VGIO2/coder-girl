@@ -1,0 +1,12 @@
+header{
+    margin-bottom: -20px;
+}
+.main-hero{
+	background-image: url(../img/home.jpg);
+	background-size: cover;
+    height: 600px;
+	color:white;
+}
+.hero{
+    vertical-align: middle;
+}
