@@ -1,9 +1,40 @@
-header{
-    margin-bottom: -20px;
+*{outline: solid 1px rgba(255,0,0,.3)}
+/*-----------------------------------------HEADER*/
+.navbar-default{
+    margin: 0;
+    padding: 0;
 }
+/*-----------------------------------------HERO*/
 .main-hero{
-	background-image: url(../img/home.jpg);
-	background-size: cover;
-    height: 600px;
-	color:white;
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 50px;
 }
+.texto{
+    margin: 80px 0 180px 0;
+}
+.texto h1{
+    color: white;
+    margin-bottom: 30px;
+}
+/*-----------------------------------------DOCUMENTAL*/
+.documental h2{
+    margin-bottom: 30px;
+}
+.documental{
+    margin-bottom: 50px;
+}
+/*-----------------------------------------HACKATON*/
+.hackaton{
+    background-color: yellow;
+}
+.hackaton img{
+    width: 80%;
+    margin:40px 0 40px 40px;
+}
+
+/*-----------------------------------------*/
